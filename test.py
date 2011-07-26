@@ -4,7 +4,7 @@ from kivy.uix.boxlayout import BoxLayout
 
 class TestApp(App):
     def build(self):
-        b = Button(text="hello")
+        b = Button(text="hello world")
 	l = BoxLayout(orientation='vertical')
 	l.add_widget(b)
 	return l
